@@ -9,6 +9,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 
 public class ReqresinTests extends TestBase {
+
     @Test
     void successfulLoginTest() {
 

@@ -10,4 +10,4 @@ public class TestBase {
         RestAssured.basePath = "/api";
     }
 }
-}
+
