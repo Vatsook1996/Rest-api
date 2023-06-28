@@ -1,21 +1,18 @@
 package tests;
-
-import models.*;
-
 import org.junit.jupiter.api.Test;
-
+import tests.models.*;
 import java.util.HashSet;
 import java.util.LinkedList;
-
-import static Specs.Specs.*;
 import static io.qameta.allure.Allure.step;
-import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
-import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.assertj.core.api.Assertions.assertThat;
+import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static tests.Specs.Specs.*;
 
 public class ReqresInExtendedTests extends TestBase {
+
     String email = "eve.holt@reqres.in";
     String password = "pistol";
     String userName = "morpheus";

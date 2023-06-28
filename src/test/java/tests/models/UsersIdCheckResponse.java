@@ -1,12 +1,11 @@
-package models;
+package tests.models;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
+import java.util.LinkedList;
+
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class UserUpdateResponse {
-
-    String name;
-    String job;
-    String updatedAt;
+public class UsersIdCheckResponse {
+    LinkedList<User> data;
 }

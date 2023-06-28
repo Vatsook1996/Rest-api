@@ -1,4 +1,4 @@
-package helpers;
+package tests.helpers;
 
 import io.qameta.allure.restassured.AllureRestAssured;
 public class CustomAllureListener {
